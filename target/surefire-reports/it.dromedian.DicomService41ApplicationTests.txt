@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: it.dromedian.DicomService41ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.983 s <<< FAILURE! - in it.dromedian.DicomService41ApplicationTests
+multiple_curl  Time elapsed: 0.928 s  <<< ERROR!
+java.lang.IllegalArgumentException: curl -X GET http://127.0.0.1:7090/existPatientID/123450 could not be parsed into a proper Uri, missing scheme
+	at it.dromedian.DicomService41ApplicationTests.testUrl(DicomService41ApplicationTests.java:73)
+	at it.dromedian.DicomService41ApplicationTests.multiple_curl(DicomService41ApplicationTests.java:43)
+

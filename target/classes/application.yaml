@@ -1,0 +1,15 @@
+
+gdcm_path : C:\gdcm\bin\
+aetitle : totem
+port_scp : 6104
+ae_call : AWSPIXELMEDPUB 
+ae_port : 11112
+ae_host : 184.73.255.26 
+dicom_storage : c:\logs
+cmd_os : 
+db_url : jdbc:mysql://127.0.0.1:3306/jdro_concorsi
+db_user : root
+db_pwd : dllmao97
+ip : 127.0.0.1
+port : 6080
+server.port: 7090
